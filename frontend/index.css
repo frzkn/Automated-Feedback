@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body {
+  margin: 0;
+  font: 'Merriweather' !important;
+  padding: 0;
+  height: 100vh;
+}
+
+.navbar {
+  position: sticky;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+h2 {
+  color: #3f3f3f;
+  padding: 0;
+  font-family: 'Merriweather';
+  margin: 0;
+  display: inline-flex;
+}
+
+.container {
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.video {
+  width: 700px;
+  padding: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+button {
+  margin: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 999999px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.play {
+  background: url('./play.svg') no-repeat center; 
+}
+
+.stop {
+  background: url('./stop.svg') no-repeat center;
+}
