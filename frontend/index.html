@@ -28,12 +28,24 @@
       Your browser does not support the video tag.
     </video>
     <div class="button-box">
-      <button class="play">
+      <button class="play" onclick="startProcess()">
       </button>
-      <button class="stop">
+      <button class="stop" onclick="stopProcess()">
       </button>
     </div>
   </div>
+  <script>
+    function startProcess() {
+      window.location.href = 'webrun:';
+
+    }
+
+    function stopProcess() {
+      console.log('Stopped')
+
+    }
+
+    </script>
 
 
 
